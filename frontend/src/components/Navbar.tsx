@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/utils/supabase/server";
+import { LogoLink } from "./LogoLink";
 import { Button } from "./ui/button";
 import { signout } from "@/app/login/actions";
 
@@ -11,9 +12,9 @@ export default async function Navbar() {
         <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <div className="w-full max-w-7xl flex justify-between items-center p-3 px-5 text-sm">
                 <div className="flex gap-5 items-center font-semibold">
-                    <Link href={"/#inicio"} className="text-xl tracking-tighter">
+                    <LogoLink className="text-xl tracking-tighter">
                         INVI<span className="text-primary">.</span>
-                    </Link>
+                    </LogoLink>
                     <div className="hidden md:flex gap-4 font-normal text-muted-foreground ml-6">
                         <Link href="/#catalogo" className="hover:text-foreground transition-colors">Proyectos</Link>
                         <Link href="/#como-funciona" className="hover:text-foreground transition-colors">Cómo Funciona</Link>

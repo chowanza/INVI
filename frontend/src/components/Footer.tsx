@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ShieldCheck, Mail, MapPin, ExternalLink, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
+import { LogoLink } from "./LogoLink"
 
 export function Footer() {
     return (
@@ -11,14 +12,14 @@ export function Footer() {
 
                     {/* Brand & Contact Column */}
                     <div className="lg:col-span-4 space-y-6">
-                        <Link href="/#inicio" className="flex items-center space-x-2">
+                        <LogoLink className="flex items-center space-x-2">
                             <span className="h-8 w-8 rounded-full bg-primary flex items-center justify-center font-bold text-primary-foreground">
                                 IN
                             </span>
                             <span className="text-2xl font-bold text-white tracking-widest">
                                 INVI
                             </span>
-                        </Link>
+                        </LogoLink>
 
                         <div className="space-y-4 pt-4">
                             <div className="flex items-center space-x-3 text-sm">
