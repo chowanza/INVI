@@ -11,7 +11,7 @@ export function Footer() {
 
                     {/* Brand & Contact Column */}
                     <div className="lg:col-span-4 space-y-6">
-                        <Link href="/" className="flex items-center space-x-2">
+                        <Link href="/#inicio" className="flex items-center space-x-2">
                             <span className="h-8 w-8 rounded-full bg-primary flex items-center justify-center font-bold text-primary-foreground">
                                 IN
                             </span>

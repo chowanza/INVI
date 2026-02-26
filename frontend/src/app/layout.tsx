@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth scroll-pt-16">
-      <body className={`${inter.className} min-h-screen bg-background antialiased flex flex-col`}>
+      <body id="inicio" className={`${inter.className} min-h-screen bg-background antialiased flex flex-col`}>
         <Navbar />
         <main className="flex-1 flex flex-col w-full items-center">
           {children}

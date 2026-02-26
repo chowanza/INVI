@@ -11,7 +11,7 @@ export default async function Navbar() {
         <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <div className="w-full max-w-7xl flex justify-between items-center p-3 px-5 text-sm">
                 <div className="flex gap-5 items-center font-semibold">
-                    <Link href={"/"} className="text-xl tracking-tighter">
+                    <Link href={"/#inicio"} className="text-xl tracking-tighter">
                         INVI<span className="text-primary">.</span>
                     </Link>
                     <div className="hidden md:flex gap-4 font-normal text-muted-foreground ml-6">
